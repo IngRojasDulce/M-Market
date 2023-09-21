@@ -46,9 +46,6 @@ const productById = async (id) => {
 
 const createProduct = async (brand, name, price, unit, description, image, score, category) => {
 
-
-
-
     const product = {
         brand,
         name,
